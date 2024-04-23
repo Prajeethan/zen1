@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Zen AI Company</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(1385554.jpg);
+      background-size: cover;
+      background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .signup-container {
+            width: 400px;
+            padding: 30px;
+            background-color:rgba(255, 255, 255,0.8);
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ffdf57;
+        }
+
+        .golden-box {
+            background-color: #ffd700;
+            border-radius: 20px;
+            box-shadow: 0 0 20px 5px #ffd700;
+            margin-bottom: 30px;
+        }
+
+        .golden-box h2 {
+            color: #333;
+            padding: 10px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="golden-box">
+            <h2>Sign Up</h2>
+        </div>
+        <form action="#" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Sign Up">
+            <center><a href="index.html">BACK</a></center>
+        </form>
+    </div>
+</body>
+</html>
